@@ -1,5 +1,11 @@
 ﻿Feature: CalculatorSeveralAdditions
 
+Scenario: Add two numbers 00
+	Given the first number is -33
+	And the second number is 34
+	When the two numbers are added
+	Then the result should be 1
+
 Scenario: Add two numbers 01
 	Given the first number is 50
 	And the second number is 70
